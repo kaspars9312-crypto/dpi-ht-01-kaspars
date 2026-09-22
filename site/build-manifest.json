@@ -1,0 +1,10 @@
+{
+  "finalPackage": "submission.json",
+  "schemaValid": true,
+  "schemaErrorCount": 0,
+  "routes": [
+    "/",
+    "/review/"
+  ],
+  "publicData": "site-data.json"
+}

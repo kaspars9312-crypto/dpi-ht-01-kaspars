@@ -1,0 +1,7 @@
+# Local working material and Python bytecode
+tmp/
+__pycache__/
+*.py[cod]
+
+# Superseded, non-final package
+submission.draft.json

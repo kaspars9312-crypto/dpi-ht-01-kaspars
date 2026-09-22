@@ -1,0 +1,4100 @@
+{
+  "case": {
+    "id": "DPI-HT-01",
+    "company": "Divorce Party International Ltd.",
+    "period": "1 January – 31 August 2026",
+    "status": "PRELIMINARY / QUALIFIED",
+    "currency": "EUR",
+    "guidedDisclosure": "Guided review records confirmations in an educational workflow. It does not assert independent source verification or a no-AI review.",
+    "displayDisclosure": "This English report display is a presentation layer. The completed submission.json remains the canonical register package."
+  },
+  "metrics": {
+    "decisions": 100,
+    "material": 25,
+    "unresolved": 30,
+    "inventoryGap": 9000
+  },
+  "executiveConclusion": "A €9,000 inventory gap remains unresolved across 30 decisions. Final profit and equity are not confirmed.",
+  "decisions": [
+    {
+      "id": "D001",
+      "question": "Resolve the source and treatment of NorthStar receipt.",
+      "outcome": "Resolve the source and treatment of NorthStar receipt. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        },
+        {
+          "sourceId": "1EvEbs1h7MYh6rq9MU5SUfTl5cH6ZA6Ms",
+          "filename": "03 CRM Export Cleaned FINAL.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 3580daf49bbc5f12…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D002",
+      "question": "Resolve the source and treatment of Freedom receipt 1.",
+      "outcome": "Resolve the source and treatment of Freedom receipt 1. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        },
+        {
+          "sourceId": "1EvEbs1h7MYh6rq9MU5SUfTl5cH6ZA6Ms",
+          "filename": "03 CRM Export Cleaned FINAL.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 3580daf49bbc5f12…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D003",
+      "question": "Resolve the source and treatment of Phoenix receipt.",
+      "outcome": "Resolve the source and treatment of Phoenix receipt. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "medium",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        },
+        {
+          "sourceId": "1EvEbs1h7MYh6rq9MU5SUfTl5cH6ZA6Ms",
+          "filename": "03 CRM Export Cleaned FINAL.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 3580daf49bbc5f12…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D004",
+      "question": "Resolve the source and treatment of Liberty receipt.",
+      "outcome": "Resolve the source and treatment of Liberty receipt. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        },
+        {
+          "sourceId": "1EvEbs1h7MYh6rq9MU5SUfTl5cH6ZA6Ms",
+          "filename": "03 CRM Export Cleaned FINAL.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 3580daf49bbc5f12…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D005",
+      "question": "Resolve the source and treatment of Opening receivable receipt.",
+      "outcome": "Resolve the source and treatment of Opening receivable receipt. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D006",
+      "question": "Resolve the source and treatment of Finally Single web receipts.",
+      "outcome": "Resolve the source and treatment of Finally Single web receipts. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "medium",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1EvEbs1h7MYh6rq9MU5SUfTl5cH6ZA6Ms",
+          "filename": "03 CRM Export Cleaned FINAL.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 3580daf49bbc5f12…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D007",
+      "question": "Resolve the source and treatment of Never Call Back web receipts.",
+      "outcome": "Resolve the source and treatment of Never Call Back web receipts. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "medium",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1EvEbs1h7MYh6rq9MU5SUfTl5cH6ZA6Ms",
+          "filename": "03 CRM Export Cleaned FINAL.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 3580daf49bbc5f12…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D008",
+      "question": "Resolve the source and treatment of New Beginnings deposit.",
+      "outcome": "Resolve the source and treatment of New Beginnings deposit. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D009",
+      "question": "Resolve the source and treatment of Fresh Freedom deposit.",
+      "outcome": "Resolve the source and treatment of Fresh Freedom deposit. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D010",
+      "question": "Resolve the source and treatment of Box supplier payment.",
+      "outcome": "Resolve the source and treatment of Box supplier payment. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D011",
+      "question": "Resolve the source and treatment of Glass supplier payment.",
+      "outcome": "Resolve the source and treatment of Glass supplier payment. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D012",
+      "question": "Resolve the source and treatment of Print supplier payment.",
+      "outcome": "Resolve the source and treatment of Print supplier payment. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D013",
+      "question": "Resolve the source and treatment of Event supplier payment.",
+      "outcome": "Resolve the source and treatment of Event supplier payment. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "medium",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D014",
+      "question": "Resolve the source and treatment of January payroll.",
+      "outcome": "Resolve the source and treatment of January payroll. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        },
+        {
+          "sourceId": "1WwIhOYZRY8RVEioasYWj1C6hR7EDPJKn",
+          "filename": "01 GIVE TO CODEX - Answer Template.json",
+          "documentType": "JSON",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9616a32de8a39a4d…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D015",
+      "question": "Resolve the source and treatment of February payroll.",
+      "outcome": "Resolve the source and treatment of February payroll. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        },
+        {
+          "sourceId": "1WwIhOYZRY8RVEioasYWj1C6hR7EDPJKn",
+          "filename": "01 GIVE TO CODEX - Answer Template.json",
+          "documentType": "JSON",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9616a32de8a39a4d…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D016",
+      "question": "Resolve the source and treatment of March payroll.",
+      "outcome": "Resolve the source and treatment of March payroll. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        },
+        {
+          "sourceId": "1WwIhOYZRY8RVEioasYWj1C6hR7EDPJKn",
+          "filename": "01 GIVE TO CODEX - Answer Template.json",
+          "documentType": "JSON",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9616a32de8a39a4d…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D017",
+      "question": "Resolve the source and treatment of April payroll.",
+      "outcome": "Resolve the source and treatment of April payroll. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        },
+        {
+          "sourceId": "1WwIhOYZRY8RVEioasYWj1C6hR7EDPJKn",
+          "filename": "01 GIVE TO CODEX - Answer Template.json",
+          "documentType": "JSON",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9616a32de8a39a4d…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D018",
+      "question": "Resolve the source and treatment of May payroll.",
+      "outcome": "Resolve the source and treatment of May payroll. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        },
+        {
+          "sourceId": "1WwIhOYZRY8RVEioasYWj1C6hR7EDPJKn",
+          "filename": "01 GIVE TO CODEX - Answer Template.json",
+          "documentType": "JSON",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9616a32de8a39a4d…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D019",
+      "question": "Resolve the source and treatment of June payroll.",
+      "outcome": "Resolve the source and treatment of June payroll. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        },
+        {
+          "sourceId": "1WwIhOYZRY8RVEioasYWj1C6hR7EDPJKn",
+          "filename": "01 GIVE TO CODEX - Answer Template.json",
+          "documentType": "JSON",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9616a32de8a39a4d…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D020",
+      "question": "Resolve the source and treatment of July payroll.",
+      "outcome": "Resolve the source and treatment of July payroll. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        },
+        {
+          "sourceId": "1WwIhOYZRY8RVEioasYWj1C6hR7EDPJKn",
+          "filename": "01 GIVE TO CODEX - Answer Template.json",
+          "documentType": "JSON",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9616a32de8a39a4d…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D021",
+      "question": "Resolve the source and treatment of August payroll.",
+      "outcome": "Resolve the source and treatment of August payroll. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        },
+        {
+          "sourceId": "1WwIhOYZRY8RVEioasYWj1C6hR7EDPJKn",
+          "filename": "01 GIVE TO CODEX - Answer Template.json",
+          "documentType": "JSON",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9616a32de8a39a4d…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D022",
+      "question": "Resolve the source and treatment of Rent payments.",
+      "outcome": "Resolve the source and treatment of Rent payments. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "medium",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D023",
+      "question": "Resolve the source and treatment of Meta and influencer payments.",
+      "outcome": "Resolve the source and treatment of Meta and influencer payments. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "medium",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D024",
+      "question": "Resolve the source and treatment of Software payments.",
+      "outcome": "Resolve the source and treatment of Software payments. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "medium",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D025",
+      "question": "Resolve the source and treatment of Utilities payments.",
+      "outcome": "Resolve the source and treatment of Utilities payments. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "medium",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D026",
+      "question": "Resolve the source and treatment of Repair transfer.",
+      "outcome": "Resolve the source and treatment of Repair transfer. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        },
+        {
+          "sourceId": "1zwdXdZ0WYnFPDizjjFL1rLfF9Zdq0vu7",
+          "filename": "08 Assets Repairs Leases Maybe.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 618f2d780fa61d71…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D027",
+      "question": "Resolve the source and treatment of Packaging machine payment.",
+      "outcome": "Resolve the source and treatment of Packaging machine payment. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        },
+        {
+          "sourceId": "1zwdXdZ0WYnFPDizjjFL1rLfF9Zdq0vu7",
+          "filename": "08 Assets Repairs Leases Maybe.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 618f2d780fa61d71…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D028",
+      "question": "Resolve the source and treatment of Photo booth payment.",
+      "outcome": "Resolve the source and treatment of Photo booth payment. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        },
+        {
+          "sourceId": "1zwdXdZ0WYnFPDizjjFL1rLfF9Zdq0vu7",
+          "filename": "08 Assets Repairs Leases Maybe.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 618f2d780fa61d71…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D029",
+      "question": "Resolve the source and treatment of Loan receipt.",
+      "outcome": "Resolve the source and treatment of Loan receipt. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1o-9-xIkdwwSd5UtTDvmewa-xvjrUjEnT",
+          "filename": "09 Loans Owner Card and Legal Problems.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 5fa12e9de7088174…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D030",
+      "question": "Resolve the source and treatment of Loan repayments.",
+      "outcome": "Resolve the source and treatment of Loan repayments. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1o-9-xIkdwwSd5UtTDvmewa-xvjrUjEnT",
+          "filename": "09 Loans Owner Card and Legal Problems.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 5fa12e9de7088174…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D031",
+      "question": "Resolve the source and treatment of Interest payments.",
+      "outcome": "Resolve the source and treatment of Interest payments. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1o-9-xIkdwwSd5UtTDvmewa-xvjrUjEnT",
+          "filename": "09 Loans Owner Card and Legal Problems.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 5fa12e9de7088174…"
+        },
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D032",
+      "question": "Resolve the source and treatment of Villa deposit.",
+      "outcome": "Resolve the source and treatment of Villa deposit. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1o-9-xIkdwwSd5UtTDvmewa-xvjrUjEnT",
+          "filename": "09 Loans Owner Card and Legal Problems.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 5fa12e9de7088174…"
+        },
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D033",
+      "question": "Resolve the source and treatment of Owner card spending.",
+      "outcome": "Resolve the source and treatment of Owner card spending. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1o-9-xIkdwwSd5UtTDvmewa-xvjrUjEnT",
+          "filename": "09 Loans Owner Card and Legal Problems.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 5fa12e9de7088174…"
+        },
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D034",
+      "question": "Resolve the source and treatment of Insurance movement.",
+      "outcome": "Resolve the source and treatment of Insurance movement. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1WwIhOYZRY8RVEioasYWj1C6hR7EDPJKn",
+          "filename": "01 GIVE TO CODEX - Answer Template.json",
+          "documentType": "JSON",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9616a32de8a39a4d…"
+        },
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D035",
+      "question": "Resolve the source and treatment of Water-damaged stock.",
+      "outcome": "Resolve the source and treatment of Water-damaged stock. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1BLdVSxr7s0ObyMKY2rub1Yzg-Y47nqmf",
+          "filename": "05 Warehouse Count Marta Notes.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 ee802c3919d58e88…"
+        },
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D036",
+      "question": "Resolve the source and treatment of Customer insolvency.",
+      "outcome": "Resolve the source and treatment of Customer insolvency. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        },
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        },
+        {
+          "sourceId": "1EvEbs1h7MYh6rq9MU5SUfTl5cH6ZA6Ms",
+          "filename": "03 CRM Export Cleaned FINAL.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 3580daf49bbc5f12…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D037",
+      "question": "Resolve the source and treatment of Former employee claim.",
+      "outcome": "Resolve the source and treatment of Former employee claim. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1o-9-xIkdwwSd5UtTDvmewa-xvjrUjEnT",
+          "filename": "09 Loans Owner Card and Legal Problems.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 5fa12e9de7088174…"
+        },
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        },
+        {
+          "sourceId": "1kK0lLv_CdpYXaB9KaH6H_8WELuQxcJ5I",
+          "filename": "10 Email and WhatsApp Dump DO NOT FORWARD.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 0e83520e6843cce3…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D038",
+      "question": "Resolve the source and treatment of Purchase total.",
+      "outcome": "Resolve the source and treatment of Purchase total. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D039",
+      "question": "Resolve the source and treatment of Cash collections total.",
+      "outcome": "Resolve the source and treatment of Cash collections total. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D040",
+      "question": "Resolve the source and treatment of Closing bank balance.",
+      "outcome": "Resolve the source and treatment of Closing bank balance. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        },
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D041",
+      "question": "Classify September customer deposits.",
+      "outcome": "The September deposits of EUR 60,000 and EUR 30,000 are cash received in advance: recognise a EUR 90,000 contract liability, not revenue, at 31 August.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": -90000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 90000,
+        "equity": -90000
+      },
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": "The September deposits of EUR 60,000 and EUR 30,000 are cash received in advance: recognise a EUR 90,000 contract liability, not revenue, at 31 August.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        }
+      ],
+      "guidedStatus": "confirmed"
+    },
+    {
+      "id": "D042",
+      "question": "Classify New bank borrowing.",
+      "outcome": "EUR 50,000 is a loan, not income: Dr Cash / Cr Loan liability; financing cash flow.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": -50000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 50000,
+        "equity": -50000
+      },
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": "EUR 50,000 is a loan, not income: Dr Cash / Cr Loan liability; financing cash flow.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1o-9-xIkdwwSd5UtTDvmewa-xvjrUjEnT",
+          "filename": "09 Loans Owner Card and Legal Problems.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 5fa12e9de7088174…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        }
+      ],
+      "guidedStatus": "confirmed"
+    },
+    {
+      "id": "D043",
+      "question": "Classify Packaging machine.",
+      "outcome": "Packaging machine A-910, EUR 60,000, is PPE. Debit PPE and credit Cash on payment; depreciation starts when available for use on 10 May, but the amount is not supportable from the supplied schedule.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": 60000,
+        "cash": 0,
+        "assets": 60000,
+        "liabilities": 0,
+        "equity": 60000
+      },
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": "Packaging machine A-910, EUR 60,000, is PPE. Debit PPE and credit Cash on payment; depreciation starts when available for use on 10 May, but the amount is not supportable from the supplied schedule.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        },
+        {
+          "sourceId": "1zwdXdZ0WYnFPDizjjFL1rLfF9Zdq0vu7",
+          "filename": "08 Assets Repairs Leases Maybe.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 618f2d780fa61d71…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": "confirmed; depreciation amount unresolved"
+    },
+    {
+      "id": "D044",
+      "question": "Classify Photo booth.",
+      "outcome": "Photo booth P-404, EUR 20,000, is PPE with the same treatment: Dr PPE / Cr Cash; depreciation begins from availability for use.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": 20000,
+        "cash": 0,
+        "assets": 20000,
+        "liabilities": 0,
+        "equity": 20000
+      },
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": "Photo booth P-404, EUR 20,000, is PPE with the same treatment: Dr PPE / Cr Cash; depreciation begins from availability for use.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        },
+        {
+          "sourceId": "1zwdXdZ0WYnFPDizjjFL1rLfF9Zdq0vu7",
+          "filename": "08 Assets Repairs Leases Maybe.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 618f2d780fa61d71…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": "confirmed; depreciation amount unresolved"
+    },
+    {
+      "id": "D045",
+      "question": "Classify Machine belt and calibration.",
+      "outcome": "EUR 10,000 repair is an expense, not an asset: Dr Repairs expense / Cr Cash; operating cash outflow.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": -10000,
+        "cash": 0,
+        "assets": -10000,
+        "liabilities": 0,
+        "equity": -10000
+      },
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": "EUR 10,000 repair is an expense, not an asset: Dr Repairs expense / Cr Cash; operating cash outflow.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        },
+        {
+          "sourceId": "1zwdXdZ0WYnFPDizjjFL1rLfF9Zdq0vu7",
+          "filename": "08 Assets Repairs Leases Maybe.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 618f2d780fa61d71…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": "confirmed"
+    },
+    {
+      "id": "D046",
+      "question": "Classify Owner villa deposit.",
+      "outcome": "EUR 70,000 villa-related owner payment is unresolved. Working presentation may be owner distribution/equity reduction and financing cash flow, but evidence is insufficient.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": null,
+        "cash": 0,
+        "assets": null,
+        "liabilities": 0,
+        "equity": null
+      },
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": "EUR 70,000 villa-related owner payment is unresolved. Working presentation may be owner distribution/equity reduction and financing cash flow, but evidence is insufficient.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1o-9-xIkdwwSd5UtTDvmewa-xvjrUjEnT",
+          "filename": "09 Loans Owner Card and Legal Problems.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 5fa12e9de7088174…"
+        },
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": "unresolved, low"
+    },
+    {
+      "id": "D047",
+      "question": "Classify Owner card spending.",
+      "outcome": "EUR 40,000 owner-card payment is unresolved. Working presentation may be owner distribution/equity reduction and financing cash flow, but evidence is insufficient.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": null,
+        "cash": 0,
+        "assets": null,
+        "liabilities": 0,
+        "equity": null
+      },
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": "EUR 40,000 owner-card payment is unresolved. Working presentation may be owner distribution/equity reduction and financing cash flow, but evidence is insufficient.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1o-9-xIkdwwSd5UtTDvmewa-xvjrUjEnT",
+          "filename": "09 Loans Owner Card and Legal Problems.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 5fa12e9de7088174…"
+        },
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": "unresolved, low"
+    },
+    {
+      "id": "D048",
+      "question": "Classify Physical product materials consumed.",
+      "outcome": "Materials are cost of sales. Inventory movement produces closing inventory EUR 112,000 and COGS EUR 405,000; the physical count is EUR 121,000, leaving an unexplained EUR 9,000 difference. Do not force a balancing entry.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": null,
+        "cash": 0,
+        "assets": null,
+        "liabilities": 0,
+        "equity": null
+      },
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": "Materials are cost of sales. Inventory movement produces closing inventory EUR 112,000 and COGS EUR 405,000; the physical count is EUR 121,000, leaving an unexplained EUR 9,000 difference. Do not force a balancing entry.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1BLdVSxr7s0ObyMKY2rub1Yzg-Y47nqmf",
+          "filename": "05 Warehouse Count Marta Notes.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 ee802c3919d58e88…"
+        },
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        },
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        }
+      ],
+      "guidedStatus": "unresolved, low"
+    },
+    {
+      "id": "D049",
+      "question": "Classify Event staff payroll.",
+      "outcome": "Event staff: expense EUR 80,000 is direct service COGS; cash paid EUR 75,000 is operating cash flow. EUR 5,000 is the net unpaid amount arising from current-period transactions, not a confirmed full closing departmental payroll payable without an established opening balance.",
+      "confidence": "medium",
+      "resolutionStatus": "resolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": 0,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": 0
+      },
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": "Event staff: expense EUR 80,000 is direct service COGS; cash paid EUR 75,000 is operating cash flow. EUR 5,000 is the net unpaid amount arising from current-period transactions, not a confirmed full closing departmental payroll payable without an established opening balance.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": "confirmed"
+    },
+    {
+      "id": "D050",
+      "question": "Classify Sales team payroll.",
+      "outcome": "Classify Sales team payroll. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "medium",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D051",
+      "question": "Classify Office payroll.",
+      "outcome": "Classify Office payroll. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "medium",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D052",
+      "question": "Classify Rent.",
+      "outcome": "Classify Rent. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D053",
+      "question": "Classify Marketing.",
+      "outcome": "Classify Marketing. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D054",
+      "question": "Classify Software.",
+      "outcome": "Classify Software. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D055",
+      "question": "Classify Utilities.",
+      "outcome": "Classify Utilities. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D056",
+      "question": "Classify Depreciation.",
+      "outcome": "Depreciation is a non-cash expense that reduces profit, equity and net PPE. EUR 24,000 cannot be confirmed without a usable calculation/supporting schedule.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": null,
+        "cash": 0,
+        "assets": null,
+        "liabilities": 0,
+        "equity": null
+      },
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": "Depreciation is a non-cash expense that reduces profit, equity and net PPE. EUR 24,000 cannot be confirmed without a usable calculation/supporting schedule.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1zwdXdZ0WYnFPDizjjFL1rLfF9Zdq0vu7",
+          "filename": "08 Assets Repairs Leases Maybe.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 618f2d780fa61d71…"
+        },
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        }
+      ],
+      "guidedStatus": "unresolved, low"
+    },
+    {
+      "id": "D057",
+      "question": "Classify Bad receivable.",
+      "outcome": "For receivable R-17, EUR 18,000 is accounted for through an impairment allowance: Dr impairment expense / Cr loss allowance. Do not reverse revenue and do not move cash.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": -18000,
+        "cash": 0,
+        "assets": -18000,
+        "liabilities": 0,
+        "equity": -18000
+      },
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": "For receivable R-17, EUR 18,000 is accounted for through an impairment allowance: Dr impairment expense / Cr loss allowance. Do not reverse revenue and do not move cash.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        },
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        },
+        {
+          "sourceId": "1EvEbs1h7MYh6rq9MU5SUfTl5cH6ZA6Ms",
+          "filename": "03 CRM Export Cleaned FINAL.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 3580daf49bbc5f12…"
+        }
+      ],
+      "guidedStatus": "confirmed, high"
+    },
+    {
+      "id": "D058",
+      "question": "Classify Damaged stock.",
+      "outcome": "Damaged inventory write-off is EUR 22,000: Dr inventory write-down expense / Cr Inventory. A separate EUR 2,000 disposal quote is not a recognised provision without enough support.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": -22000,
+        "cash": 0,
+        "assets": -22000,
+        "liabilities": 0,
+        "equity": -22000
+      },
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": "Damaged inventory write-off is EUR 22,000: Dr inventory write-down expense / Cr Inventory. A separate EUR 2,000 disposal quote is not a recognised provision without enough support.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1BLdVSxr7s0ObyMKY2rub1Yzg-Y47nqmf",
+          "filename": "05 Warehouse Count Marta Notes.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 ee802c3919d58e88…"
+        },
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        }
+      ],
+      "guidedStatus": "write-off confirmed; disposal unresolved"
+    },
+    {
+      "id": "D059",
+      "question": "Classify Probable legal claim.",
+      "outcome": "Recognise legal provision EUR 25,000, within supported range EUR 20,000–EUR 30,000: Dr legal expense / Cr provision. Non-cash at recognition; operating when paid.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": -25000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 25000,
+        "equity": -25000
+      },
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": "Recognise legal provision EUR 25,000, within supported range EUR 20,000–EUR 30,000: Dr legal expense / Cr provision. Non-cash at recognition; operating when paid.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1o-9-xIkdwwSd5UtTDvmewa-xvjrUjEnT",
+          "filename": "09 Loans Owner Card and Legal Problems.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 5fa12e9de7088174…"
+        },
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        },
+        {
+          "sourceId": "1kK0lLv_CdpYXaB9KaH6H_8WELuQxcJ5I",
+          "filename": "10 Email and WhatsApp Dump DO NOT FORWARD.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 0e83520e6843cce3…"
+        }
+      ],
+      "guidedStatus": "confirmed for recognition; exact estimate medium"
+    },
+    {
+      "id": "D060",
+      "question": "Classify Insurance consumed.",
+      "outcome": "Classify Insurance consumed. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1WwIhOYZRY8RVEioasYWj1C6hR7EDPJKn",
+          "filename": "01 GIVE TO CODEX - Answer Template.json",
+          "documentType": "JSON",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9616a32de8a39a4d…"
+        },
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D061",
+      "question": "Classify Unpaid interest.",
+      "outcome": "Classify Unpaid interest. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        },
+        {
+          "sourceId": "1o-9-xIkdwwSd5UtTDvmewa-xvjrUjEnT",
+          "filename": "09 Loans Owner Card and Legal Problems.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 5fa12e9de7088174…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D062",
+      "question": "Classify Unpaid payroll.",
+      "outcome": "Classify Unpaid payroll. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "medium",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D063",
+      "question": "Classify Unpaid suppliers.",
+      "outcome": "Classify Unpaid suppliers. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D064",
+      "question": "Classify Delivered NorthStar contract.",
+      "outcome": "Northstar: recognise EUR 180,000 revenue on 12 February, cash EUR 180,000, closing AR EUR 0.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": 180000,
+        "cash": 0,
+        "assets": 180000,
+        "liabilities": 0,
+        "equity": 180000
+      },
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": "Northstar: recognise EUR 180,000 revenue on 12 February, cash EUR 180,000, closing AR EUR 0.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        },
+        {
+          "sourceId": "1EvEbs1h7MYh6rq9MU5SUfTl5cH6ZA6Ms",
+          "filename": "03 CRM Export Cleaned FINAL.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 3580daf49bbc5f12…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": "confirmed, high"
+    },
+    {
+      "id": "D065",
+      "question": "Classify Delivered Freedom contract.",
+      "outcome": "Freedom: recognise EUR 200,000 revenue on 18 March; cash received EUR 142,000; closing AR EUR 58,000.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": 200000,
+        "cash": 0,
+        "assets": 200000,
+        "liabilities": 0,
+        "equity": 200000
+      },
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": "Freedom: recognise EUR 200,000 revenue on 18 March; cash received EUR 142,000; closing AR EUR 58,000.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        },
+        {
+          "sourceId": "1EvEbs1h7MYh6rq9MU5SUfTl5cH6ZA6Ms",
+          "filename": "03 CRM Export Cleaned FINAL.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 3580daf49bbc5f12…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": "confirmed, high"
+    },
+    {
+      "id": "D066",
+      "question": "Classify Completed Phoenix event.",
+      "outcome": "Phoenix: recognise EUR 100,000 revenue on 29 April; cash received EUR 70,000; closing AR EUR 30,000.",
+      "confidence": "medium",
+      "resolutionStatus": "resolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": 100000,
+        "cash": 0,
+        "assets": 100000,
+        "liabilities": 0,
+        "equity": 100000
+      },
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": "Phoenix: recognise EUR 100,000 revenue on 29 April; cash received EUR 70,000; closing AR EUR 30,000.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        },
+        {
+          "sourceId": "1EvEbs1h7MYh6rq9MU5SUfTl5cH6ZA6Ms",
+          "filename": "03 CRM Export Cleaned FINAL.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 3580daf49bbc5f12…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": "confirmed, medium"
+    },
+    {
+      "id": "D067",
+      "question": "Classify Delivered Liberty order.",
+      "outcome": "Liberty: recognise EUR 120,000 revenue on 20 June; cash received EUR 95,000; closing AR EUR 25,000.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": 120000,
+        "cash": 0,
+        "assets": 120000,
+        "liabilities": 0,
+        "equity": 120000
+      },
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": "Liberty: recognise EUR 120,000 revenue on 20 June; cash received EUR 95,000; closing AR EUR 25,000.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        },
+        {
+          "sourceId": "1EvEbs1h7MYh6rq9MU5SUfTl5cH6ZA6Ms",
+          "filename": "03 CRM Export Cleaned FINAL.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 3580daf49bbc5f12…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": "confirmed, high"
+    },
+    {
+      "id": "D068",
+      "question": "Classify Undelivered September events.",
+      "outcome": "The EUR 90,000 September advance is a contract liability, not August revenue. Apply the correction once only; do not double-post it.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": -90000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 90000,
+        "equity": -90000
+      },
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": "The EUR 90,000 September advance is a contract liability, not August revenue. Apply the correction once only; do not double-post it.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        }
+      ],
+      "guidedStatus": "confirmed"
+    },
+    {
+      "id": "D069",
+      "question": "Classify Loan principal payment.",
+      "outcome": "Classify Loan principal payment. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1o-9-xIkdwwSd5UtTDvmewa-xvjrUjEnT",
+          "filename": "09 Loans Owner Card and Legal Problems.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 5fa12e9de7088174…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D070",
+      "question": "Classify Equipment purchase.",
+      "outcome": "Classify Equipment purchase. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D071",
+      "question": "Estimate Closing bad-debt allowance/write-off and document the basis.",
+      "outcome": "EUR 18,000 for R-17 is identified, but the total closing receivables allowance cannot be determined without an ageing/completeness review.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": null,
+        "cash": 0,
+        "assets": null,
+        "liabilities": 0,
+        "equity": null
+      },
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": "EUR 18,000 for R-17 is identified, but the total closing receivables allowance cannot be determined without an ageing/completeness review.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        },
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        },
+        {
+          "sourceId": "1EvEbs1h7MYh6rq9MU5SUfTl5cH6ZA6Ms",
+          "filename": "03 CRM Export Cleaned FINAL.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 3580daf49bbc5f12…"
+        },
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        }
+      ],
+      "guidedStatus": "unresolved, low"
+    },
+    {
+      "id": "D072",
+      "question": "Estimate Damaged inventory write-off and document the basis.",
+      "outcome": "The EUR 22,000 damaged-stock write-off is recognised; it is the same economic event as D058 and must not be double counted.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": -22000,
+        "cash": 0,
+        "assets": -22000,
+        "liabilities": 0,
+        "equity": -22000
+      },
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": "The EUR 22,000 damaged-stock write-off is recognised; it is the same economic event as D058 and must not be double counted.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1BLdVSxr7s0ObyMKY2rub1Yzg-Y47nqmf",
+          "filename": "05 Warehouse Count Marta Notes.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 ee802c3919d58e88…"
+        },
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        }
+      ],
+      "guidedStatus": "confirmed, high"
+    },
+    {
+      "id": "D073",
+      "question": "Estimate Legal provision and document the basis.",
+      "outcome": "EUR 25,000 is the selected legal-provision estimate within the EUR 20,000–EUR 30,000 range.",
+      "confidence": "medium",
+      "resolutionStatus": "resolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": -25000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 25000,
+        "equity": -25000
+      },
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": "EUR 25,000 is the selected legal-provision estimate within the EUR 20,000–EUR 30,000 range.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1o-9-xIkdwwSd5UtTDvmewa-xvjrUjEnT",
+          "filename": "09 Loans Owner Card and Legal Problems.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 5fa12e9de7088174…"
+        },
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        }
+      ],
+      "guidedStatus": "confirmed, medium"
+    },
+    {
+      "id": "D074",
+      "question": "Estimate Period depreciation and document the basis.",
+      "outcome": "A depreciation expense exists but the exact EUR 24,000 amount is unsupported; do not assert it as final.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": null,
+        "cash": 0,
+        "assets": null,
+        "liabilities": 0,
+        "equity": null
+      },
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": "A depreciation expense exists but the exact EUR 24,000 amount is unsupported; do not assert it as final.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1zwdXdZ0WYnFPDizjjFL1rLfF9Zdq0vu7",
+          "filename": "08 Assets Repairs Leases Maybe.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 618f2d780fa61d71…"
+        },
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        }
+      ],
+      "guidedStatus": "unresolved, low"
+    },
+    {
+      "id": "D075",
+      "question": "Estimate Closing inventory and document the basis.",
+      "outcome": "Closing inventory cannot be finalised: physical count EUR 121,000 versus inventory movement EUR 112,000, a EUR 9,000 gap.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": null,
+        "cash": 0,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": "Closing inventory cannot be finalised: physical count EUR 121,000 versus inventory movement EUR 112,000, a EUR 9,000 gap.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1BLdVSxr7s0ObyMKY2rub1Yzg-Y47nqmf",
+          "filename": "05 Warehouse Count Marta Notes.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 ee802c3919d58e88…"
+        },
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        },
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        }
+      ],
+      "guidedStatus": "unresolved, low"
+    },
+    {
+      "id": "D076",
+      "question": "Estimate Closing receivables and document the basis.",
+      "outcome": "Estimate Closing receivables and document the basis. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1EvEbs1h7MYh6rq9MU5SUfTl5cH6ZA6Ms",
+          "filename": "03 CRM Export Cleaned FINAL.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 3580daf49bbc5f12…"
+        },
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        },
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D077",
+      "question": "Estimate Repair versus improvement amount and document the basis.",
+      "outcome": "Estimate Repair versus improvement amount and document the basis. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        },
+        {
+          "sourceId": "1zwdXdZ0WYnFPDizjjFL1rLfF9Zdq0vu7",
+          "filename": "08 Assets Repairs Leases Maybe.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 618f2d780fa61d71…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D078",
+      "question": "Estimate Insurance expense and document the basis.",
+      "outcome": "Estimate Insurance expense and document the basis. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1WwIhOYZRY8RVEioasYWj1C6hR7EDPJKn",
+          "filename": "01 GIVE TO CODEX - Answer Template.json",
+          "documentType": "JSON",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9616a32de8a39a4d…"
+        },
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D079",
+      "question": "Estimate Interest payable and document the basis.",
+      "outcome": "Estimate Interest payable and document the basis. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        },
+        {
+          "sourceId": "1o-9-xIkdwwSd5UtTDvmewa-xvjrUjEnT",
+          "filename": "09 Loans Owner Card and Legal Problems.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 5fa12e9de7088174…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D080",
+      "question": "Estimate Accrued payroll and document the basis.",
+      "outcome": "Estimate Accrued payroll and document the basis. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "medium",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D081",
+      "question": "Estimate Customer deposit liability and document the basis.",
+      "outcome": "Estimate Customer deposit liability and document the basis. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D082",
+      "question": "Estimate PPE closing cost and document the basis.",
+      "outcome": "Estimate PPE closing cost and document the basis. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "medium",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1zwdXdZ0WYnFPDizjjFL1rLfF9Zdq0vu7",
+          "filename": "08 Assets Repairs Leases Maybe.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 618f2d780fa61d71…"
+        },
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D083",
+      "question": "Estimate Accumulated depreciation and document the basis.",
+      "outcome": "Estimate Accumulated depreciation and document the basis. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1zwdXdZ0WYnFPDizjjFL1rLfF9Zdq0vu7",
+          "filename": "08 Assets Repairs Leases Maybe.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 618f2d780fa61d71…"
+        },
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D084",
+      "question": "Estimate Supplier payable and document the basis.",
+      "outcome": "Estimate Supplier payable and document the basis. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D085",
+      "question": "Estimate Closing loan and document the basis.",
+      "outcome": "Estimate Closing loan and document the basis. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1o-9-xIkdwwSd5UtTDvmewa-xvjrUjEnT",
+          "filename": "09 Loans Owner Card and Legal Problems.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 5fa12e9de7088174…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D086",
+      "question": "Estimate Physical COGS and document the basis.",
+      "outcome": "Estimate Physical COGS and document the basis. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1BLdVSxr7s0ObyMKY2rub1Yzg-Y47nqmf",
+          "filename": "05 Warehouse Count Marta Notes.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 ee802c3919d58e88…"
+        },
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        },
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D087",
+      "question": "Estimate Service direct payroll and document the basis.",
+      "outcome": "Estimate Service direct payroll and document the basis. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "medium",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D088",
+      "question": "Estimate Owner distributions and document the basis.",
+      "outcome": "Estimate Owner distributions and document the basis. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1o-9-xIkdwwSd5UtTDvmewa-xvjrUjEnT",
+          "filename": "09 Loans Owner Card and Legal Problems.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 5fa12e9de7088174…"
+        },
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D089",
+      "question": "Estimate Net profit and document the basis.",
+      "outcome": "Estimate Net profit and document the basis. The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        },
+        {
+          "sourceId": "1BLdVSxr7s0ObyMKY2rub1Yzg-Y47nqmf",
+          "filename": "05 Warehouse Count Marta Notes.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 ee802c3919d58e88…"
+        },
+        {
+          "sourceId": "1zwdXdZ0WYnFPDizjjFL1rLfF9Zdq0vu7",
+          "filename": "08 Assets Repairs Leases Maybe.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 618f2d780fa61d71…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1WwIhOYZRY8RVEioasYWj1C6hR7EDPJKn",
+          "filename": "01 GIVE TO CODEX - Answer Template.json",
+          "documentType": "JSON",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9616a32de8a39a4d…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D090",
+      "question": "Estimate Closing cash and document the basis.",
+      "outcome": "Estimate Closing cash and document the basis. The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        },
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D091",
+      "question": "Approve corrected accounts before valuation",
+      "outcome": "The board may approve documented corrective actions and disclosure of qualifications, but cannot approve the current accounts as a final valuation basis. The board decision itself creates no new accounting entry.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": 0,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": 0
+      },
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": "The board may approve documented corrective actions and disclosure of qualifications, but cannot approve the current accounts as a final valuation basis. The board decision itself creates no new accounting entry.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1BLdVSxr7s0ObyMKY2rub1Yzg-Y47nqmf",
+          "filename": "05 Warehouse Count Marta Notes.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 ee802c3919d58e88…"
+        },
+        {
+          "sourceId": "1zwdXdZ0WYnFPDizjjFL1rLfF9Zdq0vu7",
+          "filename": "08 Assets Repairs Leases Maybe.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 618f2d780fa61d71…"
+        },
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        },
+        {
+          "sourceId": "1ilVqEjvDhN7Csb2NrmnddHAyACeE8VCX",
+          "filename": "02 GIVE TO CODEX - Submission Rules.json",
+          "documentType": "JSON",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 33a0985a383d3633…"
+        }
+      ],
+      "guidedStatus": "confirmed"
+    },
+    {
+      "id": "D092",
+      "question": "Freeze owner-card access",
+      "outcome": "Freeze owner-card access The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1o-9-xIkdwwSd5UtTDvmewa-xvjrUjEnT",
+          "filename": "09 Loans Owner Card and Legal Problems.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 5fa12e9de7088174…"
+        },
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        },
+        {
+          "sourceId": "1kK0lLv_CdpYXaB9KaH6H_8WELuQxcJ5I",
+          "filename": "10 Email and WhatsApp Dump DO NOT FORWARD.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 0e83520e6843cce3…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D093",
+      "question": "Move September deposits to contract liabilities",
+      "outcome": "Move September deposits to contract liabilities The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D094",
+      "question": "Begin weekly 13-week cash forecast",
+      "outcome": "Begin weekly 13-week cash forecast The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        },
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        },
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        },
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D095",
+      "question": "Stop credit sales to insolvent/high-risk customers",
+      "outcome": "Stop credit sales to insolvent/high-risk customers The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        },
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D096",
+      "question": "Dispose of damaged stock",
+      "outcome": "Dispose of damaged stock The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1BLdVSxr7s0ObyMKY2rub1Yzg-Y47nqmf",
+          "filename": "05 Warehouse Count Marta Notes.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 ee802c3919d58e88…"
+        },
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D097",
+      "question": "Investigate management override and duplicate sources",
+      "outcome": "Investigate management override and duplicate sources The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1kK0lLv_CdpYXaB9KaH6H_8WELuQxcJ5I",
+          "filename": "10 Email and WhatsApp Dump DO NOT FORWARD.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 0e83520e6843cce3…"
+        },
+        {
+          "sourceId": "1EvEbs1h7MYh6rq9MU5SUfTl5cH6ZA6Ms",
+          "filename": "03 CRM Export Cleaned FINAL.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 3580daf49bbc5f12…"
+        },
+        {
+          "sourceId": "1ghZb0F-doXR88q_IQ3iDLRZLm9osFdAg",
+          "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9aa6c9dc016d704d…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D098",
+      "question": "Renegotiate supplier terms",
+      "outcome": "Renegotiate supplier terms The final register determination is recorded as resolved within the stated scope. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1_ws1iBvATS_W2RbWOXyf6AJHPdN3Ep2V",
+          "filename": "06 Purchases Invoices and Goods Received.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 4dd01296acec891d…"
+        },
+        {
+          "sourceId": "1-thqyRwpggWHWeFXaF9-IjpPXRIFKEBh",
+          "filename": "02 Bank Export August.csv",
+          "documentType": "CSV",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 b7131bab6c1464f0…"
+        },
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D099",
+      "question": "Continue core Finally Single and event operations",
+      "outcome": "Continue core Finally Single and event operations The final register determination remains unresolved pending the specified evidence. Refer to the evidence references and statement-effect summary for this decision.",
+      "confidence": "low",
+      "resolutionStatus": "unresolved",
+      "reviewTier": "operational",
+      "statementEffect": null,
+      "aPosition": "Recorded Position A remains subject to the recorded unresolved qualification.",
+      "bPosition": "Recorded Position B remains subject to the recorded unresolved qualification.",
+      "guidedConfirmation": null,
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1EvEbs1h7MYh6rq9MU5SUfTl5cH6ZA6Ms",
+          "filename": "03 CRM Export Cleaned FINAL.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 3580daf49bbc5f12…"
+        },
+        {
+          "sourceId": "1BLdVSxr7s0ObyMKY2rub1Yzg-Y47nqmf",
+          "filename": "05 Warehouse Count Marta Notes.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 ee802c3919d58e88…"
+        },
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        },
+        {
+          "sourceId": "1g1cdTGMzvIHb1tfQfzy-0g10V9db7l0m",
+          "filename": "11 Evidence Received After Takeover.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9af00c3fa4a11792…"
+        }
+      ],
+      "guidedStatus": null
+    },
+    {
+      "id": "D100",
+      "question": "Use claimed management profit for earn-out",
+      "outcome": "Do not use management profit EUR 312,000, or automatically replace it with EUR 65,000, to calculate earn-out. Require the earn-out agreement/formula and a verified accounting base first. This decision itself has no immediate accounting entry.",
+      "confidence": "high",
+      "resolutionStatus": "resolved",
+      "reviewTier": "material_judgment",
+      "statementEffect": {
+        "profit": 0,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": 0
+      },
+      "aPosition": "Recorded Position A supports the recorded determination.",
+      "bPosition": "Recorded Position B supports the recorded determination.",
+      "guidedConfirmation": "Do not use management profit EUR 312,000, or automatically replace it with EUR 65,000, to calculate earn-out. Require the earn-out agreement/formula and a verified accounting base first. This decision itself has no immediate accounting entry.",
+      "disagreement": false,
+      "evidence": [
+        {
+          "sourceId": "1G76Riktxa2_Ytz6DJB65G7n1saetdna9",
+          "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+          "documentType": "XLSX",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 10377e1794b644b4…"
+        },
+        {
+          "sourceId": "1-vykf-RafVvfLdrkscG3imG3q7jXsGZK",
+          "filename": "04 Contracts Returns and Angry Customers.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 813dbec1469e5d98…"
+        },
+        {
+          "sourceId": "1o-9-xIkdwwSd5UtTDvmewa-xvjrUjEnT",
+          "filename": "09 Loans Owner Card and Legal Problems.pdf",
+          "documentType": "PDF",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 5fa12e9de7088174…"
+        },
+        {
+          "sourceId": "1WwIhOYZRY8RVEioasYWj1C6hR7EDPJKn",
+          "filename": "01 GIVE TO CODEX - Answer Template.json",
+          "documentType": "JSON",
+          "locator": "Recorded location in source file",
+          "checksumReference": "SHA-256 9616a32de8a39a4d…"
+        }
+      ],
+      "guidedStatus": "confirmed"
+    }
+  ],
+  "featuredIds": [
+    "D046",
+    "D047",
+    "D048",
+    "D056",
+    "D071",
+    "D074",
+    "D075"
+  ],
+  "financial": {
+    "schedules": [
+      {
+        "title": "Revenue / AR",
+        "rows": [
+          [
+            "Four delivered contracts",
+            "Revenue €600,000; cash €487,000; gross AR €113,000",
+            "Confirmed for the four contracts; not complete company AR"
+          ],
+          [
+            "Web cohort",
+            "Revenue €360,000 candidate; cash €287,000; gross AR €73,000 candidate",
+            "Delivery, settlement and full AR not confirmed"
+          ],
+          [
+            "September deposits",
+            "€90,000 contract liabilities; revenue €0",
+            "Recognise once only"
+          ],
+          [
+            "R-17 allowance",
+            "€18,000 specific allowance",
+            "Total closing allowance not determinable"
+          ],
+          [
+            "All customer receipts",
+            "€899,000",
+            "Bank receipts only; not a complete revenue conclusion"
+          ]
+        ]
+      },
+      {
+        "title": "Inventory / COGS",
+        "rows": [
+          [
+            "Opening inventory",
+            "€80,000",
+            "Warehouse-document value; not a complete opening balance"
+          ],
+          [
+            "Materials received",
+            "€459,000",
+            "Recorded purchases"
+          ],
+          [
+            "Physical COGS",
+            "€405,000 candidate",
+            "Conflicts with count; not final"
+          ],
+          [
+            "Net inventory: movement / count",
+            "€112,000 candidate / €121,000 candidate",
+            "€9,000 unresolved gap"
+          ],
+          [
+            "Damaged stock",
+            "€22,000 write-off",
+            "Recognised once only"
+          ],
+          [
+            "Future disposal",
+            "€2,000 estimate",
+            "No recognised amount is supported"
+          ]
+        ]
+      },
+      {
+        "title": "Payroll",
+        "rows": [
+          [
+            "Events",
+            "Expense €80,000; cash €75,000; current-period unpaid €5,000",
+            "Direct service COGS; not a full closing departmental payable"
+          ],
+          [
+            "Sales",
+            "Expense €72,000; cash €68,000; unpaid €4,000",
+            "Selling Opex"
+          ],
+          [
+            "Office / finance",
+            "Expense €96,000; cash €88,000; unpaid €8,000",
+            "Administrative Opex"
+          ],
+          [
+            "Total",
+            "Expense €248,000; cash €231,000; current-period increase €17,000",
+            "Known payroll schedule; final total payable is qualified"
+          ]
+        ]
+      },
+      {
+        "title": "Opex",
+        "rows": [
+          [
+            "Sales and office payroll",
+            "Cash €156,000; expense €168,000",
+            "Known payroll classification"
+          ],
+          [
+            "Rent, marketing, software and utilities",
+            "Amounts recorded in the final package",
+            "Period expense and accrual completeness not confirmed"
+          ],
+          [
+            "Insurance",
+            "Not determinable",
+            "No supported final expense or prepayment amount"
+          ],
+          [
+            "Owner-related payments",
+            "€110,000 cash",
+            "Classification unresolved; not business expense by default"
+          ]
+        ]
+      },
+      {
+        "title": "PPE / Depreciation",
+        "rows": [
+          [
+            "PPE cost",
+            "€260,000",
+            "Recorded cost"
+          ],
+          [
+            "Packaging machine and photo booth",
+            "€60,000 and €20,000",
+            "Capitalised; depreciation begins when available for use"
+          ],
+          [
+            "Repair",
+            "€10,000",
+            "Period repair expense, not PPE"
+          ],
+          [
+            "Accumulated depreciation",
+            "Opening €45,000 plus undetermined current period",
+            "Final accumulated depreciation and net PPE not determinable"
+          ],
+          [
+            "Candidate depreciation",
+            "€24,000 candidate",
+            "Not asserted as final"
+          ]
+        ]
+      },
+      {
+        "title": "Debt / Interest",
+        "rows": [
+          [
+            "Loan principal",
+            "€131,000",
+            "Maturity split not known"
+          ],
+          [
+            "Interest payable",
+            "€2,000",
+            "Confirmed current-period amount"
+          ],
+          [
+            "Interest expense less cash paid",
+            "€2,000; difference €0",
+            "Full interest roll-forward remains qualified"
+          ],
+          [
+            "New borrowing",
+            "€50,000",
+            "Loan liability and financing inflow, not revenue"
+          ]
+        ]
+      },
+      {
+        "title": "Equity / Distributions",
+        "rows": [
+          [
+            "Owner-related cash",
+            "€110,000",
+            "Distribution versus recoverable owner balance unresolved"
+          ],
+          [
+            "Opening equity",
+            "Not determinable",
+            "No independent opening equity roll-forward"
+          ],
+          [
+            "Current profit",
+            "Not confirmed",
+            "No final profit conclusion"
+          ],
+          [
+            "Closing equity",
+            "Not determinable",
+            "Not derived as a balancing residual"
+          ]
+        ]
+      }
+    ],
+    "statements": [
+      {
+        "title": "Profit and Loss",
+        "rows": [
+          [
+            "Revenue",
+            "Not confirmed",
+            "€600,000 is confirmed for four contracts; broader CRM revenue is candidate only"
+          ],
+          [
+            "Physical COGS",
+            "€405,000 candidate",
+            "Conflicts with inventory count"
+          ],
+          [
+            "Direct service payroll",
+            "€80,000",
+            "Known classification"
+          ],
+          [
+            "Opex payroll",
+            "€168,000",
+            "Known classification"
+          ],
+          [
+            "Depreciation",
+            "Not determinable",
+            "€24,000 remains a candidate only"
+          ],
+          [
+            "Profit",
+            "Not confirmed",
+            "No final profit or management-profit substitute is asserted"
+          ]
+        ]
+      },
+      {
+        "title": "Balance Sheet",
+        "rows": [
+          [
+            "Cash",
+            "€60,000",
+            "Agrees to bank within the stated scope"
+          ],
+          [
+            "Gross AR / allowance / net AR",
+            "Not determinable",
+            "€113,000 for four contracts; €186,000 / €168,000 are cohort candidates only"
+          ],
+          [
+            "Inventory",
+            "Not determinable",
+            "€121,000 count versus €112,000 movement; €9,000 gap"
+          ],
+          [
+            "PPE cost",
+            "€260,000",
+            "Accumulated depreciation and net PPE not determinable"
+          ],
+          [
+            "Known listed liabilities",
+            "€406,000",
+            "Trade AP €126,000; payroll €32,000; contract liabilities €90,000; loan €131,000; interest €2,000; provision €25,000. Not complete liabilities"
+          ],
+          [
+            "Equity",
+            "Not determinable",
+            "Opening equity, profit and distributions are not confirmed"
+          ]
+        ]
+      },
+      {
+        "title": "Cash Flow",
+        "rows": [
+          [
+            "Opening cash",
+            "€80,000",
+            "Bank opening balance"
+          ],
+          [
+            "Closing cash",
+            "€60,000",
+            "Bank confirmation within stated scope"
+          ],
+          [
+            "Net change",
+            "€(20,000)",
+            "Reconciles to bank net change"
+          ],
+          [
+            "Known owner cash",
+            "€(110,000)",
+            "Cash is known; classification remains unresolved"
+          ],
+          [
+            "Cash flow conclusion",
+            "Preliminary / qualified",
+            "No complete category split is asserted"
+          ]
+        ]
+      }
+    ],
+    "reconciliations": [
+      {
+        "id": "R1",
+        "status": "NOT VERIFIABLE",
+        "calculation": "Assets − liabilities − equity: not determinable. Listed liabilities total €406,000, but this is not complete liabilities.",
+        "scope": "Known listed balances only.",
+        "limitation": "AR, inventory, depreciation, insurance, owner recovery and equity are not complete; unknown is not zero."
+      },
+      {
+        "id": "R2",
+        "status": "PASS (CSV + confirmation)",
+        "calculation": "€80,000 + €949,000 − €969,000 = €60,000; difference €0.",
+        "scope": "Bank account and confirmation scope.",
+        "limitation": "€110,000 owner cash classification keeps full cash-flow categorisation qualified."
+      },
+      {
+        "id": "R3",
+        "status": "PARTIAL",
+        "calculation": "Four delivered contracts reconcile to €0; the CRM cohort arithmetic also reconciles but is not fully recognised.",
+        "scope": "Four contracts and stated CRM cohort.",
+        "limitation": "Full AR and web-revenue completeness are not determinable."
+      },
+      {
+        "id": "R4",
+        "status": "FAIL",
+        "calculation": "Net count €121,000 − net movement €112,000 = €9,000.",
+        "scope": "Warehouse count, recorded purchases and candidate physical COGS.",
+        "limitation": "Cause and correcting entry are unresolved; no balancing entry is made."
+      },
+      {
+        "id": "R5",
+        "status": "PARTIAL",
+        "calculation": "PPE cost-register difference €0.",
+        "scope": "Recorded PPE cost.",
+        "limitation": "Accumulated depreciation and net PPE are not determinable."
+      },
+      {
+        "id": "R6",
+        "status": "PARTIAL",
+        "calculation": "Principal difference €0; interest expense less cash paid = €2,000, difference €0.",
+        "scope": "Known principal and current-period interest.",
+        "limitation": "Full interest roll-forward is not determinable."
+      },
+      {
+        "id": "R7",
+        "status": "NOT VERIFIABLE",
+        "calculation": "Opening equity, profit, distributions and other movements are not determinable.",
+        "scope": "No complete equity roll-forward.",
+        "limitation": "Closing equity and the balance-sheet difference cannot be calculated."
+      }
+    ]
+  },
+  "boardRecommendation": "Approve corrective actions and qualification disclosures, but do not use the current accounts as a final valuation or earn-out basis.",
+  "evidence": [
+    {
+      "filename": "00 BOARD ORDER READ FIRST.pdf",
+      "documentType": "PDF",
+      "checksumReference": "SHA-256 45385535b5c9dbde…",
+      "bytes": 3074
+    },
+    {
+      "filename": "01 USE THIS NUMBERS FINAL v9.xlsx",
+      "documentType": "XLSX",
+      "checksumReference": "SHA-256 10377e1794b644b4…",
+      "bytes": 5104
+    },
+    {
+      "filename": "02 Bank Export August.csv",
+      "documentType": "CSV",
+      "checksumReference": "SHA-256 b7131bab6c1464f0…",
+      "bytes": 1578
+    },
+    {
+      "filename": "03 CRM Export Cleaned FINAL.xlsx",
+      "documentType": "XLSX",
+      "checksumReference": "SHA-256 3580daf49bbc5f12…",
+      "bytes": 4696
+    },
+    {
+      "filename": "04 Contracts Returns and Angry Customers.pdf",
+      "documentType": "PDF",
+      "checksumReference": "SHA-256 813dbec1469e5d98…",
+      "bytes": 4273
+    },
+    {
+      "filename": "05 Warehouse Count Marta Notes.pdf",
+      "documentType": "PDF",
+      "checksumReference": "SHA-256 ee802c3919d58e88…",
+      "bytes": 4411329
+    },
+    {
+      "filename": "06 Purchases Invoices and Goods Received.pdf",
+      "documentType": "PDF",
+      "checksumReference": "SHA-256 4dd01296acec891d…",
+      "bytes": 4336301
+    },
+    {
+      "filename": "07 Payroll Bonuses Contractors NEW.xlsx",
+      "documentType": "XLSX",
+      "checksumReference": "SHA-256 9aa6c9dc016d704d…",
+      "bytes": 4355
+    },
+    {
+      "filename": "08 Assets Repairs Leases Maybe.xlsx",
+      "documentType": "XLSX",
+      "checksumReference": "SHA-256 618f2d780fa61d71…",
+      "bytes": 4280
+    },
+    {
+      "filename": "09 Loans Owner Card and Legal Problems.pdf",
+      "documentType": "PDF",
+      "checksumReference": "SHA-256 5fa12e9de7088174…",
+      "bytes": 3659636
+    },
+    {
+      "filename": "10 Email and WhatsApp Dump DO NOT FORWARD.pdf",
+      "documentType": "PDF",
+      "checksumReference": "SHA-256 0e83520e6843cce3…",
+      "bytes": 4306
+    },
+    {
+      "filename": "11 Evidence Received After Takeover.pdf",
+      "documentType": "PDF",
+      "checksumReference": "SHA-256 9af00c3fa4a11792…",
+      "bytes": 2294
+    }
+  ],
+  "methodology": [
+    {
+      "filename": "01 GIVE TO CODEX - Answer Template.json",
+      "documentType": "JSON",
+      "checksumReference": "SHA-256 9616a32de8a39a4d…"
+    },
+    {
+      "filename": "02 GIVE TO CODEX - Submission Rules.json",
+      "documentType": "JSON",
+      "checksumReference": "SHA-256 33a0985a383d3633…"
+    }
+  ],
+  "validation": {
+    "schemaValid": true,
+    "schema": "02 GIVE TO CODEX - Submission Rules.json",
+    "finalPackage": "submission.json",
+    "errorCount": 0
+  }
+}

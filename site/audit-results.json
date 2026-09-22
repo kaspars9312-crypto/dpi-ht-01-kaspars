@@ -1,0 +1,176 @@
+{
+  "status": "PASS_WITH_DECLARED_SUBMISSION_BLOCKERS",
+  "checks": [
+    {
+      "check": "build",
+      "status": "PASS",
+      "detail": "Recomputed in memory and compared with existing canonical JSON/draft/assets; no rebuild written."
+    },
+    {
+      "check": "decision_identity",
+      "status": "PASS",
+      "detail": "100 unique D001-D100; 75 operational / 25 material_judgment in register, canonical data and draft."
+    },
+    {
+      "check": "answers_and_fidelity",
+      "status": "PASS",
+      "detail": "100 required AI/coordinator answers present; 25 guided outcomes present; no inferred personal reasoning or change flags; A/B history unchanged."
+    },
+    {
+      "check": "student_integrity",
+      "status": "PASS",
+      "detail": "Identity null; personal reasoning null; guided disclosure retained; D049 clarification present with original retained."
+    },
+    {
+      "check": "financial_fidelity",
+      "status": "PASS",
+      "detail": "7 schedules, 3 qualified statements, R1-R7, 30 unresolved and EUR 9,000 gap preserved; draft equals canonical financial structures."
+    },
+    {
+      "check": "source_hashes",
+      "status": "PASS",
+      "detail": "Current input hashes and canonical build manifest match; root/dist draft byte-identical; complete financial source Markdown retained."
+    },
+    {
+      "check": "primary_evidence",
+      "status": "PASS",
+      "detail": "14 URL identities match SOURCE_MANIFEST and local primary SHA-256; every decision has matching primary links and locators. Live Drive access not rechecked."
+    },
+    {
+      "check": "rendered_links",
+      "status": "PASS",
+      "detail": "118 unique compiled links resolve to known D-IDs, local documents or primary file URLs; no arbitrary local path links."
+    },
+    {
+      "check": "schema",
+      "status": "PASS",
+      "detail": "50 genuine missing-personal-field schema errors, 52 content blockers including identity; exact schema keyword implementation tested. Not claimed as a general-purpose Draft 2020-12 engine."
+    },
+    {
+      "check": "routes_and_single_data_source",
+      "status": "PASS",
+      "detail": "Home and /review share identical shell/app.js; only data fetch is /site-data.json; HTTP bytes match canonical file. Final submission and git path return 404."
+    }
+  ],
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "finalURL": "http://127.0.0.1:8765/",
+      "bytes": 800
+    },
+    {
+      "route": "/review",
+      "status": 200,
+      "finalURL": "http://127.0.0.1:8765/review/",
+      "bytes": 800
+    },
+    {
+      "route": "/review/",
+      "status": 200,
+      "finalURL": "http://127.0.0.1:8765/review/",
+      "bytes": 800
+    },
+    {
+      "route": "/app.js",
+      "status": 200,
+      "finalURL": "http://127.0.0.1:8765/app.js",
+      "bytes": 18121
+    },
+    {
+      "route": "/styles.css",
+      "status": 200,
+      "finalURL": "http://127.0.0.1:8765/styles.css",
+      "bytes": 10911
+    },
+    {
+      "route": "/favicon.svg",
+      "status": 200,
+      "finalURL": "http://127.0.0.1:8765/favicon.svg",
+      "bytes": 219
+    },
+    {
+      "route": "/site-data.json",
+      "status": 200,
+      "finalURL": "http://127.0.0.1:8765/site-data.json",
+      "bytes": 2315476
+    },
+    {
+      "route": "/submission.draft.json",
+      "status": 200,
+      "finalURL": "http://127.0.0.1:8765/submission.draft.json",
+      "bytes": 746405
+    },
+    {
+      "route": "/submission.schema.json",
+      "status": 200,
+      "finalURL": "http://127.0.0.1:8765/submission.schema.json",
+      "bytes": 4173
+    },
+    {
+      "route": "/documents/DECISION_REGISTER.json",
+      "status": 200,
+      "finalURL": "http://127.0.0.1:8765/documents/DECISION_REGISTER.json",
+      "bytes": 970599
+    },
+    {
+      "route": "/documents/SCHEDULES.md",
+      "status": 200,
+      "finalURL": "http://127.0.0.1:8765/documents/SCHEDULES.md",
+      "bytes": 55546
+    },
+    {
+      "route": "/documents/FINANCIAL_STATEMENTS.md",
+      "status": 200,
+      "finalURL": "http://127.0.0.1:8765/documents/FINANCIAL_STATEMENTS.md",
+      "bytes": 45717
+    },
+    {
+      "route": "/documents/FINANCIAL_RECONCILIATIONS.md",
+      "status": 200,
+      "finalURL": "http://127.0.0.1:8765/documents/FINANCIAL_RECONCILIATIONS.md",
+      "bytes": 54747
+    },
+    {
+      "route": "/documents/FINANCIAL_ASSUMPTIONS.md",
+      "status": 200,
+      "finalURL": "http://127.0.0.1:8765/documents/FINANCIAL_ASSUMPTIONS.md",
+      "bytes": 22710
+    },
+    {
+      "route": "/documents/GUIDED_REVIEW_AUDIT.md",
+      "status": 200,
+      "finalURL": "http://127.0.0.1:8765/documents/GUIDED_REVIEW_AUDIT.md",
+      "bytes": 15388
+    },
+    {
+      "route": "/documents/AI_REVIEW_TRAIL.md",
+      "status": 200,
+      "finalURL": "http://127.0.0.1:8765/documents/AI_REVIEW_TRAIL.md",
+      "bytes": 100831
+    },
+    {
+      "route": "/documents/RECONCILIATION_LOG.md",
+      "status": 200,
+      "finalURL": "http://127.0.0.1:8765/documents/RECONCILIATION_LOG.md",
+      "bytes": 60298
+    },
+    {
+      "route": "/submission.json",
+      "status": 404
+    },
+    {
+      "route": "/.git/config",
+      "status": 404
+    },
+    {
+      "route": "/not-a-route",
+      "status": 404
+    }
+  ],
+  "schemaErrorCount": 50,
+  "contentBlockerCount": 52,
+  "canonicalSHA256": "25006f7ae6eca01b2f31465d658a42fd537c8dc078738819e4ab5580e184c0e4",
+  "draftSHA256": "1190913519a830396700ddce7028c3de5894b065906a7501d7803589da97420b",
+  "browserChecksRecordedSeparately": "AUDIT_LOG.md"
+}
