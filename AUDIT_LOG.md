@@ -124,3 +124,12 @@ node --check site/app.js
 - Restored seven collapsed Financial Schedules, three collapsed detailed preliminary statements, and seven collapsed reconciliation details on the home page.
 - The public display carries only English presentation of amounts, stated results, scopes, and qualifications already present in the completed package; it introduces no assumptions, balancing entries, or new calculations.
 - Privacy treatment remains unchanged: no external source links, raw source files, raw package/register/schema, hashes, or audit-file downloads are exposed.
+
+## Teacher-feedback reporting and submission-endpoint correction — 2026-09-23
+
+- Rebuilt the public display from the completed canonical `submission.json` without changing the decision register, guided-review population, student data, or unresolved matters.
+- Added visible provisional tables: P&L provisional subtotal **€65,000 before unquantified insurance and other unresolved effects**; cash flow **€139,000 operating**, **€(80,000) investing**, **€31,000 financing before €(110,000) owner-related cash**, and **€(20,000)** net change to **€60,000** closing cash; balance-sheet scenario assets **€531,000**, listed liabilities **€406,000**, and illustrative residual equity **€125,000**. Candidate inputs and cash-equals-expense treatment are explicitly labelled assumptions, not final or audited amounts.
+- Retained the €9,000 inventory conflict (movement €112,000 versus count €121,000) and the genuinely missing insurance amount; neither is treated as zero or resolved by a balancing entry.
+- Replaced generic public operational summaries with specific English treatments and known monetary effects for every operational decision, including D001–D013.
+- Copied canonical `submission.json` to `site/dist/submission.json` as the required public endpoint. Both root and distribution JSON files validate against the supplied schema with **0 errors** and are semantically identical.
+- Local checks: `/` HTTP 200, `/review/` HTTP 200 and displays exactly 25 material judgments, `/submission.json` HTTP 200 with `application/json`; the generated English display has no Cyrillic text.

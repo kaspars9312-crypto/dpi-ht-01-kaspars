@@ -4,7 +4,9 @@
   "schemaErrorCount": 0,
   "routes": [
     "/",
-    "/review/"
+    "/review/",
+    "/submission.json"
   ],
-  "publicData": "site-data.json"
+  "publicData": "site-data.json",
+  "publicSubmission": "submission.json"
 }
