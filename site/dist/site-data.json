@@ -3234,7 +3234,7 @@
     },
     {
       "id": "D091",
-      "question": "Approve corrected accounts before valuation",
+      "question": "Provisional accounts under selected case assumptions",
       "outcome": "The board may approve documented corrective actions and disclosure of qualifications, but cannot approve the current accounts as a final valuation basis. The board decision itself creates no new accounting entry.",
       "confidence": "high",
       "resolutionStatus": "resolved",
