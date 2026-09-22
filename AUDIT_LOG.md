@@ -133,3 +133,12 @@ node --check site/app.js
 - Replaced generic public operational summaries with specific English treatments and known monetary effects for every operational decision, including D001–D013.
 - Copied canonical `submission.json` to `site/dist/submission.json` as the required public endpoint. Both root and distribution JSON files validate against the supplied schema with **0 errors** and are semantically identical.
 - Local checks: `/` HTTP 200, `/review/` HTTP 200 and displays exactly 25 material judgments, `/submission.json` HTTP 200 with `application/json`; the generated English display has no Cyrillic text.
+
+## Teacher-feedback selected-scenario correction — 2026-09-23
+
+- Added a visible **Selected provisional case assumptions** section and three full, non-collapsible selected-scenario statements on the home page: Provisional Profit and Loss, Provisional Cash Flow, and Provisional Balance Sheet.
+- The selected scenario uses only documented case inputs: €360,000 web-revenue candidate, €405,000 COGS candidate, €131,000 cash-equals-expense assumption for rent/marketing/software/utilities, €24,000 depreciation candidate, and an explicit €0 insurance-recognition assumption pending evidence. The €65,000 provisional net profit remains explicitly non-final.
+- The selected balance-sheet scenario presents €531,000 selected assets, €406,000 listed liabilities, and €125,000 provisional equity, calculated as selected assets less listed liabilities. It is not a balancing conclusion.
+- The €9,000 inventory conflict is visibly retained: selected movement inventory €112,000 versus €121,000 physical-count alternative. Missing insurance evidence remains disclosed as an unquantified alternative, not evidence of zero.
+- The generated decision explorer retains 100 decisions (75 operational / 25 material judgments), with concrete English recorded determinations for every operational ID, including D001–D013. Guided-review disclosure, student details, A/B fields, confidence, evidence metadata, and unresolved statuses are retained.
+- Rebuilt from source. Root `submission.json` and `site/dist/submission.json` each validate against the supplied schema with **0 errors**; the distribution copy is semantically identical. Local checks returned HTTP 200 for `/`, `/review/`, and `/submission.json`; `/review/` reports exactly 25 material judgments; rendered public display text contains no Cyrillic.
