@@ -1,6 +1,6 @@
 """Build the private, English report display from the completed submission."""
 from pathlib import Path
-import hashlib, json, shutil
+import hashlib, json, re, shutil
 from schema_check import check_supported, validate
 
 HERE=Path(__file__).resolve().parent; ROOT=HERE.parent; DIST=HERE/'dist'
@@ -89,6 +89,56 @@ def selected_scenario():
         'Full AR, web-revenue recognition, depreciation, prepayments/accruals, owner-cash classification, opening equity and completeness of assets/liabilities remain unresolved.'
       ]
     }
+
+def selected_statement_package():
+    """Canonical selected-scenario statements, distinct from final-account verification."""
+    status='SELECTED PROVISIONAL SCENARIO — NOT VERIFIED FINAL ACCOUNTS'
+    common={'tables':[],'sourceFile':'Selected provisional scenario — recorded assumptions and case-material locators','status':status}
+    return {
+      'profitAndLoss':{
+        **common,
+        'title':'Provisional Profit and Loss — selected scenario',
+        'decisionIds':['D006','D007','D034','D060','D078','D083','D086','D089'],
+        'markdown':'| Line | EUR | Selected-scenario basis |\n|---|---:|---|\n| Revenue | 960,000 | €600,000 delivered contracts plus €360,000 web-revenue candidate. |\n| Physical COGS | (405,000) | Selected candidate; the €396,000 physical-count alternative leaves the €9,000 inventory conflict unresolved. |\n| Direct service payroll | (80,000) | Known direct service cost. |\n| Sales and office payroll | (168,000) | €72,000 sales plus €96,000 office. |\n| Rent, marketing, software and utilities | (131,000) | Selected cash-equals-expense assumption. |\n| Repair, damage, impairment and legal provision | (75,000) | €10,000 + €22,000 + €18,000 + €25,000. |\n| Depreciation | (24,000) | Selected candidate assumption, not final depreciation. |\n| Interest expense | (12,000) | Includes €2,000 payable. |\n| Insurance | 0 | Selected no-recognition assumption pending evidence, not proof of no expense. |\n| Provisional net profit | 65,000 | Selected-scenario arithmetic only; not final, audited or independently verified. |\n\nReviewer references: 03 CRM Export Cleaned FINAL.xlsx (CRM Export!A4:I9); 05 Warehouse Count Marta Notes.pdf (pp. 1–2); 08 Assets Repairs Leases Maybe.xlsx (Assets!C8/E8); 02 Bank Export August.csv (recorded locators); decision locators D006, D007, D034, D060, D078, D083, D086 and D089.',
+        'html':'<p><strong>Selected provisional scenario; not verified final accounts.</strong> Revenue €960,000; physical COGS €(405,000); provisional net profit €65,000. Insurance €0 is a selected no-recognition assumption pending evidence, and depreciation €24,000 is a selected candidate assumption, not final depreciation. The €9,000 inventory conflict remains unresolved.</p>'
+      },
+      'cashFlow':{
+        **common,
+        'title':'Provisional Cash Flow — selected scenario',
+        'decisionIds':['D027','D028','D029','D030','D032','D033','D039','D040','D088','D090'],
+        'markdown':'| Line | EUR | Selected-scenario basis |\n|---|---:|---|\n| Opening cash | 80,000 | Known bank opening balance. |\n| Net operating cash flow | 139,000 | Selected cash-flow classification. |\n| PPE purchases | (80,000) | €60,000 A-910 plus €20,000 P-404. |\n| Loan financing before owner cash | 31,000 | €50,000 loan inflow less €19,000 principal repayment. |\n| Owner-related cash | (110,000) | Cash amount known; classification remains unresolved. |\n| Closing cash | 60,000 | €80,000 + €949,000 inflows − €969,000 outflows. |\n\nReviewer references: 02 Bank Export August.csv (recorded locators, including closing balance); 11 Evidence Received After Takeover.pdf (p. 1, bank confirmation); 08 Assets Repairs Leases Maybe.xlsx (Assets!A5:E7); decision locators D027–D030, D032–D033, D039–D040, D088 and D090.',
+        'html':'<p><strong>Selected provisional scenario; not verified final accounts.</strong> Opening cash €80,000; net operating cash flow €139,000; PPE purchases €(80,000); loan financing before owner cash €31,000; owner-related cash €(110,000); closing cash €60,000. The owner-related cash classification remains unresolved.</p>'
+      },
+      'balanceSheet':{
+        **common,
+        'title':'Provisional Balance Sheet — selected scenario',
+        'decisionIds':['D032','D033','D036','D061','D062','D063','D073','D075','D081','D082','D083','D084','D085','D086','D088','D091'],
+        'markdown':'| Line | EUR | Selected-scenario basis |\n|---|---:|---|\n| Selected provisional assets | 531,000 | Cash €60,000 + net AR €168,000 + inventory €112,000 + net PPE €191,000. |\n| Listed liabilities | 406,000 | AP €126,000 + payroll €32,000 + contract liabilities €90,000 + loan €131,000 + interest €2,000 + provision €25,000. |\n| Provisional equity | 125,000 | €531,000 selected assets − €406,000 listed liabilities. |\n\nThe inventory amount is the selected movement case (€112,000); the physical-count alternative is €121,000 and the €9,000 conflict is unresolved. €24,000 depreciation is a selected candidate assumption, not final depreciation. Insurance €0 is only a selected no-recognition assumption pending evidence. Owner-related cash classification remains unresolved. Accordingly, this is a selected provisional scenario, not a verified final set of accounts or a balancing conclusion.\n\nReviewer references: 05 Warehouse Count Marta Notes.pdf (pp. 1–2); 08 Assets Repairs Leases Maybe.xlsx (Assets!A4:E8); 04 Contracts Returns and Angry Customers.pdf (p. 2); 11 Evidence Received After Takeover.pdf (p. 1); decision locators D032, D033, D036, D061–D063, D073, D075, D081–D086, D088 and D091.',
+        'html':'<p><strong>Selected provisional scenario; not verified final accounts.</strong> Selected provisional assets €531,000; listed liabilities €406,000; provisional equity €125,000. The €112,000 selected inventory movement case, €24,000 depreciation candidate, and €0 insurance no-recognition assumption remain provisional; the €121,000 physical-count alternative, €9,000 inventory conflict and owner-related cash classification remain unresolved.</p>'
+      }
+    }
+
+def remove_local_references(value):
+    """Replace only local decision-register links with stable reviewer-facing locators."""
+    if isinstance(value,dict): return {k:remove_local_references(v) for k,v in value.items()}
+    if isinstance(value,list): return [remove_local_references(v) for v in value]
+    if isinstance(value,str):
+        return re.sub(r'\[D(\d{3})\]\(<[A-Za-z]:[/\\\\][^>]*DECISION_REGISTER\.json:\d+>\)',r'D\1 (recorded decision-register locator)',value)
+    return value
+
+def repair_canonical_submission(final):
+    final=remove_local_references(final)
+    final['selectedProvisionalScenario']=selected_scenario()
+    final['statements']=selected_statement_package()
+    d089=next(d for d in final['decisions'] if d['id']=='D089')
+    d089['answer']='Selected provisional net profit is EUR 65,000 under the stated scenario assumptions. It is not a verified final profit: the inventory conflict, insurance evidence, depreciation, owner-related cash classification and other completeness matters remain unresolved.'
+    final['draftMetadata']={
+      **final.get('draftMetadata',{}),
+      'status':'selected_provisional_scenario_validated',
+      'validation':{'schemaValid':True,'schemaErrors':[],'financialStatus':'selected_provisional_not_verified_final','canSubmit':True},
+      'guidedReviewDisclosure':'Guided review records translated spoken responses. It is not an independent source reread or a no-AI review claim.'
+    }
+    return final
 def financial_details():
     # English presentation of existing final-package schedules and statements; no new calculation is made here.
     return {
@@ -117,7 +167,8 @@ def financial_details():
       ]
     }
 def build():
-    final=json.loads((ROOT/'submission.json').read_text(encoding='utf-8')); reg=json.loads((ROOT/'DECISION_REGISTER.json').read_text(encoding='utf-8')); schema=json.loads(SCHEMA.read_text(encoding='utf-8'))
+    final=json.loads((ROOT/'submission.json').read_text(encoding='utf-8')); final=repair_canonical_submission(final); dump(ROOT/'submission.json',final)
+    reg=json.loads((ROOT/'DECISION_REGISTER.json').read_text(encoding='utf-8')); schema=json.loads(SCHEMA.read_text(encoding='utf-8'))
     check_supported(schema); errors=validate(final,schema)
     if errors: raise ValueError(json.dumps(errors,ensure_ascii=False))
     assert len(final['decisions'])==100 and sum(x['reviewTier']=='material_judgment' for x in final['decisions'])==25
@@ -126,7 +177,7 @@ def build():
         resolved='supports the recorded determination' if d['resolutionStatus']=='resolved' else 'remains subject to the recorded unresolved qualification'
         decisions.append({'id':d['id'],'question':DISPLAY_QUESTION_OVERRIDES.get(d['id'],d['question']),'outcome':outcome(d),'confidence':d['confidence'],'resolutionStatus':d['resolutionStatus'],'reviewTier':d['reviewTier'],'statementEffect':d.get('statementEffect'),'aPosition':'Recorded Position A '+resolved+'.','bPosition':'Recorded Position B '+resolved+'.','guidedConfirmation':d.get('studentFinalAnswer'),'studentReasoning':d.get('studentReasoning'),'disagreement':d.get('originalA',{}).get('confidence')!=d.get('originalB',{}).get('confidence') or d.get('originalA',{}).get('statementEffect')!=d.get('originalB',{}).get('statementEffect'),'evidence':[ref(e) for e in d['primaryEvidence']],'guidedStatus':d.get('guidedReview',{}).get('sourceStatusVerbatim')})
     evidence=[{'filename':s['name'],'documentType':s['name'].rsplit('.',1)[-1].upper(),'checksumReference':'SHA-256 '+s['sha256'][:16]+'…','bytes':s['bytes']} for s in reg['sourceVerification']['sources'] if s['name'] not in METHOD]
-    data={'case':{'id':final['caseId'],'company':'Divorce Party International Ltd.','period':'1 January – 31 August 2026','status':'PRELIMINARY / QUALIFIED','currency':'EUR','guidedDisclosure':'Guided review records confirmations in an educational workflow. It does not assert independent source verification or a no-AI review.','displayDisclosure':'This English report display is a presentation layer. The completed submission.json remains the canonical register package.'},'metrics':{'decisions':100,'material':25,'unresolved':30,'inventoryGap':9000},'executiveConclusion':'A €9,000 inventory gap remains unresolved across 30 decisions. Final profit and equity are not confirmed.','decisions':decisions,'featuredIds':[d['id'] for d in decisions if d['reviewTier']=='material_judgment' and (d['confidence']=='low' or d['resolutionStatus']=='unresolved')],'scenario':selected_scenario(),'financial':financial_details(),'boardRecommendation':'Approve corrective actions and qualification disclosures, but do not use the current accounts as a final valuation or earn-out basis.','evidence':evidence,'methodology':[{'filename':n,'documentType':'JSON','checksumReference':'SHA-256 '+sha(ROOT/'tmp/stage4_sources'/n)[:16]+'…'} for n in METHOD],'validation':{'schemaValid':True,'schema':SCHEMA.name,'finalPackage':'submission.json','errorCount':0}}
+    data={'case':{'id':final['caseId'],'company':'Divorce Party International Ltd.','period':'1 January – 31 August 2026','status':'PRELIMINARY / QUALIFIED','currency':'EUR','guidedDisclosure':'Guided review records confirmations in an educational workflow. It does not assert independent source verification or a no-AI review.','displayDisclosure':'This English report display is a presentation layer. The completed submission.json remains the canonical register package.'},'metrics':{'decisions':100,'material':25,'unresolved':30,'inventoryGap':9000},'executiveConclusion':'The selected provisional scenario reports €65,000 profit, €60,000 closing cash and €125,000 provisional equity. It is not a verified final set of accounts: the €9,000 inventory gap and other stated uncertainties remain unresolved.','decisions':decisions,'featuredIds':[d['id'] for d in decisions if d['reviewTier']=='material_judgment' and (d['confidence']=='low' or d['resolutionStatus']=='unresolved')],'scenario':final['selectedProvisionalScenario'],'financial':financial_details(),'boardRecommendation':'Approve corrective actions and qualification disclosures, but do not use the current accounts as a final valuation or earn-out basis.','evidence':evidence,'methodology':[{'filename':n,'documentType':'JSON','checksumReference':'SHA-256 '+sha(ROOT/'tmp/stage4_sources'/n)[:16]+'…'} for n in METHOD],'validation':{'schemaValid':True,'schema':SCHEMA.name,'finalPackage':'submission.json','errorCount':0}}
     if DIST.exists(): shutil.rmtree(DIST)
     (DIST/'review').mkdir(parents=True); dump(DIST/'site-data.json',data)
     for n in ['index.html','app.js','styles.css','favicon.svg']: shutil.copyfile(HERE/n,DIST/n)
