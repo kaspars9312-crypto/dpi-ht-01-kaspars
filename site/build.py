@@ -36,6 +36,7 @@ DISPLAY_QUESTION_OVERRIDES={
  'D091':'Provisional accounts under selected case assumptions'
 }
 def outcome(d):
+    if d['id']=='D089': return d['answer']
     if d.get('studentFinalAnswer'): return d['studentFinalAnswer']
     return OPERATIONAL_TREATMENTS.get(d['id'], 'No public narrative is available for this operational decision.')
 def selected_scenario():

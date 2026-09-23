@@ -3235,7 +3235,7 @@
     {
       "id": "D089",
       "question": "Estimate Net profit and document the basis.",
-      "outcome": "Final net profit is not established. €65,000 is an assumption-based subtotal of known and candidate lines, not a final profit.",
+      "outcome": "Selected provisional net profit is EUR 65,000 under the stated scenario assumptions. It is not a verified final profit: the inventory conflict, insurance evidence, depreciation, owner-related cash classification and other completeness matters remain unresolved.",
       "confidence": "low",
       "resolutionStatus": "unresolved",
       "reviewTier": "operational",
