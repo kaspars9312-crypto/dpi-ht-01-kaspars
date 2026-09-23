@@ -72,7 +72,8 @@ def selected_scenario():
           ['PPE purchases','€(80,000)','Investing outflow: €60,000 A-910 + €20,000 P-404. D027, D028, D070.'],
           ['Loan financing before owner cash','€31,000','€50,000 loan inflow less €19,000 principal repayment. D029, D030, D069.'],
           ['Owner-related cash','€(110,000)','Cash amount is known; distribution versus recoverable claim remains unresolved. D032, D033, D088.'],
-          ['Net change / closing cash','€(20,000) / €60,000','€80,000 + €949,000 inflows − €969,000 outflows = €60,000. D040, D090.']
+          ['Net change in cash','€(20,000)','€80,000 + €949,000 inflows − €969,000 outflows. D040, D090.'],
+          ['Closing cash','€60,000','Known bank closing balance within the stated scope. D040, D090.']
         ]},
         {'title':'Provisional Balance Sheet','rows':[
           ['Cash','€60,000','Known bank balance within stated scope. D040, D090.'],

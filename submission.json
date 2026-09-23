@@ -7304,9 +7304,14 @@
             "Cash amount is known; distribution versus recoverable claim remains unresolved. D032, D033, D088."
           ],
           [
-            "Net change / closing cash",
-            "€(20,000) / €60,000",
-            "€80,000 + €949,000 inflows − €969,000 outflows = €60,000. D040, D090."
+            "Net change in cash",
+            "€(20,000)",
+            "€80,000 + €949,000 inflows − €969,000 outflows. D040, D090."
+          ],
+          [
+            "Closing cash",
+            "€60,000",
+            "Known bank closing balance within the stated scope. D040, D090."
           ]
         ]
       },
