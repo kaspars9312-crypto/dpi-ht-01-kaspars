@@ -142,3 +142,11 @@ node --check site/app.js
 - The €9,000 inventory conflict is visibly retained: selected movement inventory €112,000 versus €121,000 physical-count alternative. Missing insurance evidence remains disclosed as an unquantified alternative, not evidence of zero.
 - The generated decision explorer retains 100 decisions (75 operational / 25 material judgments), with concrete English recorded determinations for every operational ID, including D001–D013. Guided-review disclosure, student details, A/B fields, confidence, evidence metadata, and unresolved statuses are retained.
 - Rebuilt from source. Root `submission.json` and `site/dist/submission.json` each validate against the supplied schema with **0 errors**; the distribution copy is semantically identical. Local checks returned HTTP 200 for `/`, `/review/`, and `/submission.json`; `/review/` reports exactly 25 material judgments; rendered public display text contains no Cyrillic.
+
+## Guided-reasoning restoration — 2026-09-23
+
+- Replaced the identical generated `Guided confirmation of the recorded outcome` text in all **25** material-judgment `studentReasoning` fields with plain-English translations of the student's recorded spoken guided-review responses.
+- The restored records preserve admissions of uncertainty and assistance. In particular, D057 states that the student requested the model entry and does not claim an independent allowance calculation; D056 preserves the initial cash-versus-expense misunderstanding and correction; D046/D047 and D071/D074/D075 retain low-confidence limits.
+- `/review/` now displays a separate **Student's spoken reasoning (English translation)** section for every material judgment, alongside the outcome, A/B positions, statement effect and evidence metadata.
+- The display explicitly says these are guided spoken responses, not an independent reread of source evidence or a no-AI review claim. No financial amount, decision status, evidence citation, confidence rating, or unresolved item was changed.
+- Rebuild validation passed: 100 decisions, 25 material judgments, zero empty or generic reasoning fields, and byte-equivalent root/distribution `submission.json`. Local browser verification confirmed the new D041 reasoning is visible in `/review/`.
